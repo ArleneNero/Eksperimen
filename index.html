@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Si Oren — Kucing Kantor 🐱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <button id="darkToggle" title="Mode gelap/terang">🌙</button>
+
+  <header class="hero">
+    <div class="cat-wrap" id="catWrap">
+      <img src="assets/kucing.jpg" alt="Si Oren si kucing oren" id="catImg" draggable="false">
+      <div id="hearts"></div>
+    </div>
+    <h1>Si Oren 🐱</h1>
+    <p class="tagline">Kucing kantor paling rajin (tidur)</p>
+    <p class="hint">👆 Klik kucingnya!</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🍗 Kenyang Meter</h2>
+      <div class="meter">
+        <div class="meter-fill" id="hungerFill"></div>
+      </div>
+      <p id="hungerText">Kenyang 😊</p>
+      <button id="feedBtn" class="btn">Kasih Makan 🍗</button>
+    </section>
+
+    <section class="card">
+      <h2>👋 Elus Meter</h2>
+      <p class="big-number"><span id="petCount">0</span>x</p>
+      <p id="petLevel">Level: Pemula 🌱</p>
+      <button id="petBtn" class="btn">Elus Si Oren 👋</button>
+    </section>
+
+    <section class="card id-card">
+      <h2>🪪 Kartu Identitas</h2>
+      <div class="id-inner">
+        <img src="assets/kucing.jpg" alt="Foto ID Si Oren">
+        <div class="id-info">
+          <p><strong>Nama:</strong> Si Oren</p>
+          <p><strong>Jabatan:</strong> Kucing Kantor</p>
+          <p><strong>ID:</strong> KUC-001</p>
+          <p><strong>Status:</strong> Aktif rebahan</p>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>Dibuat dengan ❤️ buat Si Oren</p>
+  </footer>
+
+  <audio id="meowAudio" src="assets/meong.mp3" preload="auto"></audio>
+  <script src="script.js"></script>
+</body>
+</html>
